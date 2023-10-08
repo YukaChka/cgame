@@ -2,13 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <locale.h>
-#include <windows.h>
 
 int goblinattack(int hp); //прототип функции
  
 int main()
 {
-ShowWindow(GetConsoleWindow(), SW_MAXIMIZE);
   int hp= 30;
   int num1;
   int gold = 0;
